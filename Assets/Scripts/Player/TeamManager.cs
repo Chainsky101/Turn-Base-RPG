@@ -31,6 +31,7 @@ namespace Player
             SetupSingleton();
             playDataPath = Application.persistentDataPath + playDataPath;
             LoadData();
+            print(playDataPath);
         }
 
         private void Update()
